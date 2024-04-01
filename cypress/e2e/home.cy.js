@@ -24,7 +24,10 @@ describe("Home Page", () => {
     it("Experience Section -  More Experiences", () => {
         home.ExperienceSectionMore();
     });
-    it("Porotofolio Section - View Card", () => {
+    it("Portofolio Section - View Card", () => {
         home.PortofolioSectionCard();
+    });
+    it("Portofolio Section - View More", () => {
+        home.PorotfolioSectionMore();
     });
 });

@@ -37,6 +37,10 @@ class home {
         cy.get("button").contains("Close").click();
         cy.wait(1000);
     }
+    PorotfolioSectionMore() {
+        cy.get("#portofolios a.btn").contains("View More").click();
+        cy.wait(1000);
+    }
 }
 
 export default new home();
