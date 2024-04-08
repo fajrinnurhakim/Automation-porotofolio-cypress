@@ -6,7 +6,7 @@ module.exports = defineConfig({
             // implement node event listeners here
         },
         env: {
-            BASE_URL: "https://fajrin-nurhakim.netlify.app/",
+            BASE_URL: "https://fajrin-nurhakim.vercel.app/",
         },
         viewportWidth: 1200,
         viewportHeight: 800,
