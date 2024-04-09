@@ -31,6 +31,13 @@ class home {
         cy.get("#experiences a").click();
         cy.wait(1000);
     }
+    ExperienceMoreCard() {
+        this.ExperienceSectionMore();
+        cy.get("h2").eq(0).click();
+        cy.wait(1000);
+        cy.get("button").contains("Close").click();
+        cy.wait(1000);
+    }
     PortofolioSectionCard() {
         cy.get("#portofolios h2").eq(0).click();
         cy.wait(1000);
