@@ -5,6 +5,6 @@ describe("Portofolio Website", () => {
 
     it("Portofolio Website", () => {
         cy.url().should("include", "/");
-        cy.get("h1").contains("Fajrin Nurhakim").should("be.visible");
+        cy.get("span").contains("Fajrin Nurhakim").should("be.visible");
     });
 });
