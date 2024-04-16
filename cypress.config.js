@@ -7,6 +7,7 @@ module.exports = defineConfig({
         },
         env: {
             BASE_URL: "https://fajrin-nurhakim.vercel.app/",
+            BASE_URL_DASHBOARD: "https://fajrin-nurhakim.vercel.app/dashboard",
         },
         viewportWidth: 1200,
         viewportHeight: 800,
